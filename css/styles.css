@@ -1,0 +1,159 @@
+  body{
+      text-align: center;
+  }
+  #title{
+      
+      text-align: left;
+  }  
+  .container-fluid{
+      padding:3% 15%;
+  }
+  /* section */
+  .colored-section{
+   background-color:  rgb(139, 241, 139);
+
+  }
+  .white-section{
+    background-color: #fff;
+
+  }
+   
+  h1{
+      font-family:"Montserrat-Black";
+      font-size: 3rem;
+      line-height: 1.5;
+  }
+  h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem ;
+    line-height: 1.5;
+}
+  h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
+      
+  }
+  p{
+      color:#8f8f8f;
+  }
+  .navbar{
+      padding:0 0 2.5rem;
+  }
+  .navbar-brand{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      /* font-size: 2.5rem;
+      font-weight:bold ; */
+  }
+  /* title-iamge */
+  .farmer{
+      margin:0% 0% 10% 40%;
+      width:60%;
+      /* transform:rotate(25deg) */
+    
+    /* position:absolute; */
+    }
+  .nav-item{
+      padding:0 10px;
+
+  }
+  .nav-link{
+      font-family: "Monsterrat-light";
+      font-weight: ;
+
+  }
+  .download-button{
+      margin:5% 3% 5% 0%
+
+  }
+  /* features section */
+  #features{
+      padding:7% 15%;
+      
+      position:relative;
+      /* z-index: 1; */
+
+  }
+  
+  .feature-box{
+    
+      padding:5%;
+  }
+  .icon{
+      color:cyan;
+      margin-bottom:1rem;
+
+
+  }
+  .icon:hover{
+      color:darkturquoise
+  }
+  /* testimonial section */
+  #testimonials{
+      padding:7% 15%;
+    
+    
+      color:seagreen
+
+
+  }
+ 
+  .testimonial-image{
+      width:10%;
+      border-radius: 100%;
+      margin: 20px;
+      
+  }
+  #press{
+     
+    
+     padding-bottom: 3%;
+  }
+  .press-logo{
+      width:15%;
+      margin:20px 20px 50px;
+  }
+  .lol{
+      /* margin-left : 150px; */
+      /* padding-left : 100px; */
+  }
+  /* pricing section */
+  #pricing{
+      padding: 100px;
+    
+  }
+  .pricing-column{
+      padding:3% 2%;
+  }
+   
+  /* cta section */
+  #cta{
+      
+      /* color:#fff ; */
+      padding: 7% 15%;
+    
+      
+  }
+  .cta-heading{
+      font-family: "Montserrar-Black";
+      font-size:3.5rem;
+      line-height: 1.5;
+  }
+  /* footer section */
+  #footer{
+      padding:7% 15%;
+    
+  }
+  social-icon{
+      margin:20px 10px;
+
+  }
+
+  @media (max-width:1028px){
+      #title{
+          text-align: center;
+      }
+      .title-image{
+          position:static;
+
+      }
+  }
+
